@@ -228,12 +228,47 @@ header .logo {
 @media(max-width: 500px)  {
     body {
         background: yellow;
-    }
 
+    }
+    
+    
+    header {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center; */
+    }
+    
+    header nav {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+    
+    }
+   
     nav  {
         display: flex;
         flex-direction: column;
         border: 1px solid red;
+        margin: 0 auto;
+ 
+    }
+
+    
+    a {
+        background: red;
+        margin: 15px;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        
     }
 }
 /* cta */
@@ -285,14 +320,70 @@ header .logo {
         padding-top: 39px;
     }
 
-    @media(max-width: 800px) {
-        .main-content {
+    @media(max-width: 500px) {
+        .cta  {
             width: 100%;
             margin: auto 0;
         }
 
+        .cta-text {
+        text-align: center;
+        margin: auto 0 ;
+        }
+    }
+
         .main-content .top-content {
             padding: 0 10px;
+        }
+
+        @media(max-width: 500px) {
+            .main-content {
+                width: 100%;
+                margin: 0 auto;
+                
+                }
+            
+            .top-content {
+            
+            width: 100%;
+            }
+        
+
+            .top-content .text-content {
+                margin: 10px;
+                background: plum;
+            }
+
+            .main-content .top-content .text-content{
+                display: block;
+               
+
+            }
+            .middle-img {
+                border: 3px solid red;
+            }
+
+
+            .main-content .bottom-content .text-content {
+                display: block;
+            }
+
+            .bottom-content {
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            .bottom-content .text-content {
+                background: teal;
+                display: block;
+                padding: 15px;
+                
+               
+            }
+
+            
+
+            
         }
 
         .main-content .top-content .text-content {
@@ -303,6 +394,11 @@ header .logo {
 
         .main-content .top-content .text-content:last-child {
             margin-right: 0;
+        }
+
+        .middle-img {
+            width: 100%;
+            height: auto;
         }
 
         .main-content .middle-img {
