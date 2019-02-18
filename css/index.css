@@ -258,16 +258,24 @@ header .logo {
         flex-direction: column;
         border: 1px solid red;
         margin: 0 auto;
+        
+
  
+    }
+
+    nav a {
+        border-bottom: 1px solid lightgray;
     }
 
     
     a {
-        background: red;
+        background: red; 
         margin: 15px;
         padding: 10px;
         margin: 0 auto;
         text-align: center;
+        width: 100%;
+        
         
     }
 }
@@ -365,18 +373,31 @@ header .logo {
 
 
             .main-content .bottom-content .text-content {
-                display: block;
+                display: flex;
+                flex-direction: column;
             }
 
             .bottom-content {
+                display: flex;
                 width: 100%;
                 margin: 0 auto;
+                flex-direction: column;
+                border: 1px solid red;
+            }
+
+            .text-content{
+                width: 100%;
             }
 
             .bottom-content .text-content {
                 background: teal;
-                display: block;
+                display: flex;
+                flex-direction: column;
                 padding: 15px;
+                width: 100%;
+                
+                border: 1px solid red;
+                
                 
                
             }
