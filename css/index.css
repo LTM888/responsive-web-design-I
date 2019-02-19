@@ -346,6 +346,7 @@ footer {
     @media(max-width: 500px) {
         body {
             background: rgb(218, 218, 218);
+            max-width: 500px;
         }
 
         header {
@@ -434,12 +435,13 @@ footer {
         }
 
         .middle-img {
-            width: 450px;
+            width: 425px;
             margin-left: 15px;
             height: auto;
         }
 
         .bottom-content {
+            width: 100%;
             display: flex;
             flex-direction: column;
 
@@ -454,8 +456,14 @@ footer {
             margin:
         }
 
-        footer {
+        footer  {
             display: inline-block;
+            width: 500px;
+        }
+
+        footer p {
+            margin-right: 45px;
+            
         }
 
     }
